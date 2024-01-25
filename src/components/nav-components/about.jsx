@@ -19,15 +19,16 @@ import db from '../../images/8541628_database_data_storage_icon.png'
 
 
 function About(){
-    return(
-        <div className="container">
+return(
+    <div className="container">
+        <section className='four'>
             <div className="abt-wrapper-1  ">
                 <p className="abt-para  " style={{margin:'30px'}}>
                     <div className="para-con-1" style={{color:'white'}}>
                         <div className="head" >
-                            <h1>Know Who <span style={{color:'#392467'}}>I'M</span> </h1>
+                            <h1>Know Who <span style={{color:'#66FCF1'}}>I'M</span> </h1>
                         </div>
-                        <p> Hi Everyone, I am <span style={{color:'#392467'}}> Dhananjay Meshram</span> from Indore (MP), India.</p> 
+                        <p> Hi Everyone, I am <span style={{color:'#66FCF1'}}> Dhananjay Meshram</span> from Indore (MP), India.</p> 
                         <p>I have completed B.tech from UIT RGPV Bhopal. </p>
                         
 
@@ -43,6 +44,8 @@ function About(){
                     <img src={dev_17} alt="dev-img" />
                 </div>
             </div>
+        </section>
+        <section className='five'>
             <div className="abt-wrapper">
                 <div className="skills">
                     <div className="heading">
@@ -198,6 +201,9 @@ function About(){
                     
                 </div>
             </div>
+        </section>
+            
+            
         </div>
     )
 }

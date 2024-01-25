@@ -26,12 +26,13 @@ function HomePage(){
    
 
     return(
-        <div className="container">
+    <div className="container">
+        <section className='one'>
             <div className="home-wrapper-1 ">
                 <div className="para">
                     <div className="para-1">
                         <h1 style={{color:'white'}}>
-                            Hi there! <br />
+                            Hi there! 
                             I am <span style={{color:" #66FCF1"}}>Dhananjay Meshram</span>
                         </h1>
                     </div>
@@ -53,6 +54,9 @@ function HomePage(){
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section className='two'>
             <div className="home-wrapper-2">
                 <div className="img-con">
                     <img src={dev_12} alt="profile circle" />
@@ -62,8 +66,10 @@ function HomePage(){
                     <h1 style={{color:'white'}}>Eat Sleep <span style={{color:'#392467'}}>Develop</span> Repeat</h1>
                    
                 </div>
-                
             </div>
+        </section>
+
+        <section className='three'>
             <div className="contact">
                 <div className="con-info">
                     <div className="ball"></div>
@@ -92,7 +98,9 @@ function HomePage(){
                 </div>
                 
             </div>
-        </div>
+        </section>
+            
+    </div>
     )
 }
 export default HomePage;
