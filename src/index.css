@@ -1604,7 +1604,7 @@ p{
     }
 } */
   
-@media screen and (max-height: 600px){
+@media screen and (max-height: 500px){
     @keyframes circle{
         0%{
             transform: rotate(0deg) translate(-26vw) rotate(0deg );
@@ -1619,7 +1619,7 @@ p{
         font-size: 5vw;
     }
     .container .home-wrapper-1 .para-2 p{
-        font: 3vw;
+        font-size: 5vw;
     }
 
     .container .home-wrapper-2 .img-con{
